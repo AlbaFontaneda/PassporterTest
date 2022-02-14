@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		C637E42E27B67397001B66A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E42D27B67397001B66A8 /* AppDelegate.swift */; };
 		C637E43027B67397001B66A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E42F27B67397001B66A8 /* SceneDelegate.swift */; };
-		C637E43227B67397001B66A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E43127B67397001B66A8 /* ViewController.swift */; };
+		C637E43227B67397001B66A8 /* DestiniesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E43127B67397001B66A8 /* DestiniesController.swift */; };
 		C637E43527B67397001B66A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C637E43327B67397001B66A8 /* Main.storyboard */; };
 		C637E43727B6739A001B66A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C637E43627B6739A001B66A8 /* Assets.xcassets */; };
 		C637E43A27B6739A001B66A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C637E43827B6739A001B66A8 /* LaunchScreen.storyboard */; };
+		C637E44527B675DE001B66A8 /* DestiniesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E44427B675DE001B66A8 /* DestiniesRepository.swift */; };
+		C637E44827B67644001B66A8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E44727B67644001B66A8 /* Models.swift */; };
+		C637E44D27B6794A001B66A8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E44C27B6794A001B66A8 /* Config.swift */; };
+		C637E45027B67999001B66A8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E44F27B67999001B66A8 /* Extensions.swift */; };
+		C637E45227B679C9001B66A8 /* UIView+Designables.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E45127B679C9001B66A8 /* UIView+Designables.swift */; };
+		C637E45527B68ABF001B66A8 /* RequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C637E45427B68ABF001B66A8 /* RequestResponse.swift */; };
+		C6E19A4E27BA7F3B00F6F3D7 /* DestinyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E19A4C27BA7F3B00F6F3D7 /* DestinyTableViewCell.swift */; };
+		C6E19A4F27BA7F3B00F6F3D7 /* DestinyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E19A4D27BA7F3B00F6F3D7 /* DestinyTableViewCell.xib */; };
+		C6E19A5227BA921A00F6F3D7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E19A5127BA921A00F6F3D7 /* DetailsViewController.swift */; };
+		C6E19A5427BAA61F00F6F3D7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E19A5327BAA61F00F6F3D7 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C637E42A27B67397001B66A8 /* PassporterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassporterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C637E42D27B67397001B66A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C637E42F27B67397001B66A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C637E43127B67397001B66A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C637E43127B67397001B66A8 /* DestiniesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniesController.swift; sourceTree = "<group>"; };
 		C637E43427B67397001B66A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C637E43627B6739A001B66A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C637E43927B6739A001B66A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C637E43B27B6739A001B66A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C637E44427B675DE001B66A8 /* DestiniesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniesRepository.swift; sourceTree = "<group>"; };
+		C637E44727B67644001B66A8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C637E44C27B6794A001B66A8 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C637E44F27B67999001B66A8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C637E45127B679C9001B66A8 /* UIView+Designables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designables.swift"; sourceTree = "<group>"; };
+		C637E45427B68ABF001B66A8 /* RequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResponse.swift; sourceTree = "<group>"; };
+		C6E19A4C27BA7F3B00F6F3D7 /* DestinyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyTableViewCell.swift; sourceTree = "<group>"; };
+		C6E19A4D27BA7F3B00F6F3D7 /* DestinyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinyTableViewCell.xib; sourceTree = "<group>"; };
+		C6E19A5127BA921A00F6F3D7 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C6E19A5327BAA61F00F6F3D7 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,73 @@
 		C637E42C27B67397001B66A8 /* PassporterTest */ = {
 			isa = PBXGroup;
 			children = (
+				C637E45327B679E0001B66A8 /* Presentation */,
+				C637E44E27B6798A001B66A8 /* Utils */,
+				C637E44B27B67936001B66A8 /* Infraestructure */,
+				C637E44627B6762F001B66A8 /* Entities */,
+				C637E44127B67598001B66A8 /* Data */,
 				C637E42D27B67397001B66A8 /* AppDelegate.swift */,
 				C637E42F27B67397001B66A8 /* SceneDelegate.swift */,
-				C637E43127B67397001B66A8 /* ViewController.swift */,
 				C637E43327B67397001B66A8 /* Main.storyboard */,
-				C637E43627B6739A001B66A8 /* Assets.xcassets */,
 				C637E43827B6739A001B66A8 /* LaunchScreen.storyboard */,
+				C637E43627B6739A001B66A8 /* Assets.xcassets */,
 				C637E43B27B6739A001B66A8 /* Info.plist */,
 			);
 			path = PassporterTest;
+			sourceTree = "<group>";
+		};
+		C637E44127B67598001B66A8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C637E44427B675DE001B66A8 /* DestiniesRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C637E44627B6762F001B66A8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C637E44727B67644001B66A8 /* Models.swift */,
+				C637E45427B68ABF001B66A8 /* RequestResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C637E44B27B67936001B66A8 /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				C637E44C27B6794A001B66A8 /* Config.swift */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		C637E44E27B6798A001B66A8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C637E44F27B67999001B66A8 /* Extensions.swift */,
+				C637E45127B679C9001B66A8 /* UIView+Designables.swift */,
+				C6E19A5327BAA61F00F6F3D7 /* Logger.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C637E45327B679E0001B66A8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6E19A5027BA7F5000F6F3D7 /* Cells */,
+				C637E43127B67397001B66A8 /* DestiniesController.swift */,
+				C6E19A5127BA921A00F6F3D7 /* DetailsViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C6E19A5027BA7F5000F6F3D7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C6E19A4C27BA7F3B00F6F3D7 /* DestinyTableViewCell.swift */,
+				C6E19A4D27BA7F3B00F6F3D7 /* DestinyTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E19A4F27BA7F3B00F6F3D7 /* DestinyTableViewCell.xib in Resources */,
 				C637E43A27B6739A001B66A8 /* LaunchScreen.storyboard in Resources */,
 				C637E43727B6739A001B66A8 /* Assets.xcassets in Resources */,
 				C637E43527B67397001B66A8 /* Main.storyboard in Resources */,
@@ -138,9 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C637E43227B67397001B66A8 /* ViewController.swift in Sources */,
+				C637E43227B67397001B66A8 /* DestiniesController.swift in Sources */,
 				C637E42E27B67397001B66A8 /* AppDelegate.swift in Sources */,
+				C637E45027B67999001B66A8 /* Extensions.swift in Sources */,
+				C6E19A5227BA921A00F6F3D7 /* DetailsViewController.swift in Sources */,
+				C637E45227B679C9001B66A8 /* UIView+Designables.swift in Sources */,
+				C637E44D27B6794A001B66A8 /* Config.swift in Sources */,
 				C637E43027B67397001B66A8 /* SceneDelegate.swift in Sources */,
+				C6E19A5427BAA61F00F6F3D7 /* Logger.swift in Sources */,
+				C6E19A4E27BA7F3B00F6F3D7 /* DestinyTableViewCell.swift in Sources */,
+				C637E44827B67644001B66A8 /* Models.swift in Sources */,
+				C637E45527B68ABF001B66A8 /* RequestResponse.swift in Sources */,
+				C637E44527B675DE001B66A8 /* DestiniesRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
